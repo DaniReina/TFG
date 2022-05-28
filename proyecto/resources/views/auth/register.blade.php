@@ -99,7 +99,7 @@
                                     <div class="row mb-0">
                                         <div class="col-md-8 offset-md-4">
                                             <button type="submit" class="btn btn-primary">
-                                                {{ __('Registrarse') }}
+                                                <a class="nav-link text-white" href="welcome2">{{ __('Registrarse') }}</a>
                                             </button>
                                         </div>
                                     </div>

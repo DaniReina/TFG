@@ -46,6 +46,9 @@ Route::get('/register', function () {
 Route::get('/home', function () {
     return view('home');
 });
+Route::get('/LOPD', function () {
+    return view('LOPD');
+});
 
 Auth::routes();
 
