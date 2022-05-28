@@ -103,9 +103,9 @@
                         Volver a la página principal
                     </a>  
                 </div>
-                
-            </div>
+            </form> 
         </div>
+    </div>
     @endsection
 </body>
 </html>

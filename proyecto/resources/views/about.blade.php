@@ -25,6 +25,7 @@
                 Fundada en 2019, libreria es hoy la cadena de librerías líder en el sector. En 2020 se integra en el Grupo Planeta, en 2021 inauguró su librería virtual y en 2022 inicia una fase de expansión ubicándose en las mejores zonas comerciales de los barrios de Madrid. En la actualidad cuenta con 4 librerías: en Barrio del pilar, Simancas Torrejon de Ardoz y Villaverde Alto.
             </p>
             <br>
+            
             <a href="welcome" class="boton">
                 Volver a la página principal
             </a>

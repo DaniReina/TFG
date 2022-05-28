@@ -25,44 +25,27 @@
         </button>
         <!--rem tamaño icon-->
         <!--https://mdbootstrap.com/docs/standard/content-styles/icons/-->
-        <div class="d-flex my-5 mx-auto justify-content-center">
-        <button type="button" class="btn btn-light"> <a href="index.html"><i class="bi bi-cart my-auto mx-2" ></i></a></button>
-        </div>
+        <ul class="navbar-nav ml-auto">
 
+          <li class="nav-item"><a class="nav-link" href="welcome">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="registro">Registro usuario</a></li>
+          <li class="nav-item"><a class="nav-link" href="about">Sobre nosotros</a></li>
+          <li class="nav-item"><a class="nav-link" href="500.html">Preguntas frecuentes</a></li>
+          <li class="nav-item"><a class="nav-link" href="login">Inicia sesion</a></li>
 
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-                <div class="busqueda">
-                    <div class="input-group" id="search" width>
-                            <input type="search" class="form-control rounded" placeholder="Buscar" aria-label="buscar"   />
-                            <button type="button" class="btn btn-outline-primary" ></button>
-                    </div>
-                </div>
-            </ul>
-
-            <ul class="navbar-nav ml-auto">
-
-                <li class="nav-item"><a class="nav-link" href="registro">Registro usuario</a></li>
-                <li class="nav-item"><a class="nav-link" href="about">Sobre nosotros</a></li>
-                <li class="nav-item"><a class="nav-link" href="500.html">Preguntas frecuentes</a></li>
-                <li class="nav-item"><a class="nav-link" href="login">Inicia sesion</a></li>
-
-            </ul>
-
+        </ul>
 
         </div>
     </div>
-</nav>
+</nav> 
+  <div class="container">
+    <main>
+      <div class="py-5 text-center">
+        <h2>CONTÁCTANOS</h2>
+      </div>
     
-    <div class="container">
-      <main>
-        <div class="py-5 text-center">
-          <h2>CONTÁCTANOS</h2>
-        </div>
-    
-        <div class="row justify-content-center">
-          <div class="col-md-12 col-lg-6">
+      <div class="row justify-content-center">
+        <div class="col-md-12 col-lg-6">
             <h4 class="mb-3">Datos Personales</h4>
             <form class="needs-validation" novalidate="">
               <div class="row g-3">
@@ -101,13 +84,9 @@
               <button class="w-10 btn btn-primary btn-lg" type="submit">Enviar</button>
             </form>
             <br>
-            <a href="welcome" class="boton">
-                Volver a la página principal
-            </a>
           </div>
-          
         </div>
-      </main>
-    </div>
-    
-    </body>
+      </div>
+    </main>
+  </div>
+</body>
