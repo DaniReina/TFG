@@ -168,73 +168,67 @@
     <!--footer-->
     <footer>
 
-
         <div class="container-fluid">
 
             <div class="row p-5 bg-primary">
 
-            <div class="col-xs-12 col-md-6 col-lg-3">
+                <div class="col-xs-12 col-md-6 col-lg-3">
 
-            <p class="h3">Libreria</p>
-            <a class="navbar-brand" href="#">
-
-                <img src="{{URL::asset('/imagenes/libreria1.png')}}" width="100" alt="logo">
-            </a>
-            </div>
-
-            <div class="col-xs-12 col-md-6 col-lg-3">
-
-            <p class="h3">Links</p>
-            <div class="mb-2">
-            <a class="text-white text-decoration-none" href="https://www.planetadelibros.com/libros-mas-vendidos?utm_medium=paid_search&utm_source=google&utm_campaign=mas_vendidos&utm_content=mas_vendidos&gclid=CjwKCAjwkMeUBhBuEiwA4hpqEF_7JykuKqs7m8S5LKU4B58WGNqP93O23negbBsHK2Nf8notHEJ1dhoCx14QAvD_BwE">Grupo Planeta</a>
-            </div>
-            <div class="mb-2">
-            <a class="text-white text-decoration-none" href="https://www.normaeditorial.com/">Norma Editorial</a>
-            </div>
-
-            <div class="mb-2">
-            <a class="text-white text-decoration-none" href="https://www.anagrama-ed.es/">Anagrama</a>
-            </div>
-            </div>
-
-
-            <div class="col-xs-12 col-md-6 col-lg-3">
-
-            <p class="h3">Redes</p>
-            <div class="mb-2">
-            <a class="text-white " href="https://www.instagram.com/">Instagram</a>
-            </div>
-            <div class="mb-2">
-            <a class="text-white " href="https://es-es.facebook.com/">Facebook</a>
-            </div>
-
-            <div class="mb-2">
-            <a class="text-white ;" href="https://twitter.com/?lang=es">Twitter</a>
-            </div>
-            </div>
-
-            <div class="col-xs-12 col-md-6 col-lg-3">
-
-            <p class="h3">contacto</p>
-            <div class="mb-2">
-                <a class="text-white ;" href="atencion">Contacta con nosotros</a>
+                    <p class="h3">Libreria</p>
+                    <a class="navbar-brand" href="#">
+                        <img src="{{URL::asset('/imagenes/libreria1.png')}}" width="100" alt="logo">
+                    </a>
                 </div>
 
+                <div class="col-xs-12 col-md-6 col-lg-3">
+
+                    <p class="h3">Links</p>
+                    <div class="mb-2">
+                        <a class="text-white text-decoration-none" href="https://www.planetadelibros.com/libros-mas-vendidos?utm_medium=paid_search&utm_source=google&utm_campaign=mas_vendidos&utm_content=mas_vendidos&gclid=CjwKCAjwkMeUBhBuEiwA4hpqEF_7JykuKqs7m8S5LKU4B58WGNqP93O23negbBsHK2Nf8notHEJ1dhoCx14QAvD_BwE">Grupo Planeta</a>
+                    </div>
+                    <div class="mb-2">
+                        <a class="text-white text-decoration-none" href="https://www.normaeditorial.com/">Norma Editorial</a>
+                    </div>
+
+                    <div class="mb-2">
+                        <a class="text-white text-decoration-none" href="https://www.anagrama-ed.es/">Anagrama</a>
+                    </div>
+                </div>
+
+
+                <div class="col-xs-12 col-md-6 col-lg-3">
+
+                    <p class="h3">Redes</p>
+                    <div class="mb-2">
+                        <a class="text-white " href="https://www.instagram.com/">Instagram</a>
+                    </div>
+                    <div class="mb-2">
+                        <a class="text-white " href="https://es-es.facebook.com/">Facebook</a>
+                    </div>
+
+                    <div class="mb-2">
+                        <a class="text-white ;" href="https://twitter.com/?lang=es">Twitter</a>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-md-6 col-lg-3">
+
+                    <p class="h3">contacto</p>
+                    <div class="mb-2">
+                        <a class="text-white ;" href="atencion">Contacta con nosotros</a>
+                    </div>
+
+                </div>
             </div>
-        </footer>
+        </div>
+    </footer>
     <div class="row justify-content-md-center py-5">
         <div clas="col text-center font-weight-light">
-        <p> © 2020-2022 harol-production. harol-productions are trademarks of harol.SL
-
-        </p>
-
-
+            <p> © 2020-2022 harol-production. harol-productions are trademarks of harol.SL</p>
 
         </div>
-
     </div>
-    </div>
-    </div>
+    
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
@@ -242,6 +236,11 @@
     <!--<script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     -->
+    <style>
+        ::-webkit-scrollbar {
+            display: none;
+        }
+    </style>
 </body>
 
 

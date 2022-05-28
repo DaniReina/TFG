@@ -249,6 +249,11 @@
     <!--<script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     -->
+    <style>
+        ::-webkit-scrollbar {
+            display: none;
+        }
+    </style>
 </body>
 
 
