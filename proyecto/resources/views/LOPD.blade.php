@@ -30,10 +30,10 @@
   </div>
   <h3>RESPONSABLE</h3>
   En cumplimiento a Ley Federal de Protección de Datos Personales en posesión de los Particulares, 
-  CIESAS le informa que Librería CIESAS es responsable de sus datos personales. 
-  El “usuario” podrá contactar a Librería CIESAS en cualquier momento por medio de nuestro correo 
+  HDA le informa que Librería HDA es responsable de sus datos personales. 
+  El “usuario” podrá contactar a Librería HDA en cualquier momento por medio de nuestro correo 
   libreriaHDA@gmail.com 
-  En Librería CIESAS protegemos y salvaguardamos tus datos personales para evitar el daño, perdida, 
+  En Librería HDA protegemos y salvaguardamos tus datos personales para evitar el daño, perdida, 
   destrucción, robo, extravío, alteración, así como el tratamiento no autorizado de tus datos personales.
   
 <p>
