@@ -75,7 +75,7 @@
                 <input type="checkbox" class="form-check-input" id="save-info">
                 <div class="info required">
                     <label id="pdw_aceptargpd_label" class="field-label">He leído y acepto 
-                        <a href="/LOPD/" target="_blank">la política de privacidad</a>
+                        <a href="LOPD">la política de privacidad</a>
                     </label>
                 <div class="validators">
                     <span id="RequiredFieldValidatorpdw_aceptargpd" style="display:none;">*</span>
