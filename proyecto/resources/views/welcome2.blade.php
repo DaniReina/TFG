@@ -39,7 +39,7 @@
             </button>
             <!--rem tamaño icon-->
             <!--https://mdbootstrap.com/docs/standard/content-styles/icons/-->
-            
+
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item"><a class="nav-link" href="about">Sobre nosotros</a></li>
                 <li class="nav-item"><a class="nav-link" href="carrito">Productos</a></li>
@@ -57,7 +57,7 @@
                     </div>
                 </li>
             </ul>
-            
+
             <ul class="navbar-nav ml-auto">
                 <div class="busqueda">
                     <div class="input-group" id="search" width>
@@ -176,26 +176,68 @@
     </div>
 
     <!--footer-->
-    <div id="footer" class="p-5">
-    <div class="container w-50 pt-5">
-    <div class="row justify-content-md-center">
-    <div class="col text-center">
-    <a href="atencion">
-        <button class="btn-lg rounded-pill btn-warning w-10 p-3 shadow-sm font-wight-bold">Atención al cliente</button>
+    <footer>
 
-    </a>
 
-    </div>
-    </div>
+        <div class="container-fluid">
+
+            <div class="row p-5 bg-primary">
+
+            <div class="col-xs-12 col-md-6 col-lg-3">
+
+            <p class="h3">Libreria</p>
+            <a class="navbar-brand" href="#">
+
+                <img src="{{URL::asset('/imagenes/libreria1.png')}}" width="100" alt="logo">
+            </a>
+            </div>
+
+            <div class="col-xs-12 col-md-6 col-lg-3">
+
+            <p class="h3">Links</p>
+            <div class="mb-2">
+            <a class="text-white text-decoration-none" href="https://www.planetadelibros.com/libros-mas-vendidos?utm_medium=paid_search&utm_source=google&utm_campaign=mas_vendidos&utm_content=mas_vendidos&gclid=CjwKCAjwkMeUBhBuEiwA4hpqEF_7JykuKqs7m8S5LKU4B58WGNqP93O23negbBsHK2Nf8notHEJ1dhoCx14QAvD_BwE">Grupo Planeta</a>
+            </div>
+            <div class="mb-2">
+            <a class="text-white text-decoration-none" href="https://www.normaeditorial.com/">Norma Editorial</a>
+            </div>
+
+            <div class="mb-2">
+            <a class="text-white text-decoration-none" href="https://www.anagrama-ed.es/">Anagrama</a>
+            </div>
+            </div>
+
+
+            <div class="col-xs-12 col-md-6 col-lg-3">
+
+            <p class="h3">Redes</p>
+            <div class="mb-2">
+            <a class="text-white " href="https://www.instagram.com/">Instagram</a>
+            </div>
+            <div class="mb-2">
+            <a class="text-white " href="https://es-es.facebook.com/">Facebook</a>
+            </div>
+
+            <div class="mb-2">
+            <a class="text-white ;" href="https://twitter.com/?lang=es">Twitter</a>
+            </div>
+            </div>
+
+            <div class="col-xs-12 col-md-6 col-lg-3">
+
+            <p class="h3">contacto</p>
+            <div class="mb-2">
+                <a class="text-white ;" href="atencion">Contacta con nosotros</a>
+                </div>
+
+            </div>
+        </footer>
     <div class="row justify-content-md-center py-5">
         <div clas="col text-center font-weight-light">
         <p> © 2020-2022 harol-production. harol-productions are trademarks of harol.SL
 
         </p>
 
-
-
-        </div>
 
     </div>
     </div>
