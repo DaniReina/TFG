@@ -30,10 +30,20 @@
           <li class="nav-item"><a class="nav-link" href="welcome">Inicio</a></li>
           <li class="nav-item"><a class="nav-link" href="registro">Registro usuario</a></li>
           <li class="nav-item"><a class="nav-link" href="about">Sobre nosotros</a></li>
-          <li class="nav-item"><a class="nav-link" href="500.html">Preguntas frecuentes</a></li>
           <li class="nav-item"><a class="nav-link" href="login">Inicia sesion</a></li>
 
         </ul>
+        <ul class="navbar-nav ml-auto">
+          <div class="busqueda">
+              <div class="input-group" id="search" width>
+                      <input type="search" class="form-control rounded" placeholder="Buscar" aria-label="buscar"   />
+                      <button type="button" class="btn btn-outline-primary" ></button>
+              </div>
+          </div>
+      </ul>
+      <div class="d-flex my-5 mx-auto justify-content-center">
+        <button type="button" class="btn btn-light"> <a href="cart"><i class="bi bi-cart my-auto mx-2" ></i></a></button>
+      </div>
 
         </div>
     </div>
