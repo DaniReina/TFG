@@ -143,7 +143,7 @@
 
         <div class="col-xs-12 col-md-6 col-lg-3">
 
-        <p class="h3">contacto</p>
+        <p class="h3">Contacto</p>
         <div class="mb-2">
             <a class="text-white ;" href="atencion">Contacta con nosotros</a>
             </div>
