@@ -42,6 +42,7 @@
 
             <ul class="navbar-nav ml-auto">
 
+                <li class="nav-item"><a class="nav-link active" href="welcome">Inicio</a></li>
                 <li class="nav-item"><a class="nav-link" href="register">Registro usuario</a></li>
                 <li class="nav-item"><a class="nav-link" href="about">Sobre nosotros</a></li>
                 <li class="nav-item"><a class="nav-link" href="carrito">Productos</a></li>
@@ -59,7 +60,7 @@
             </ul>
 
             <div class="d-flex my-5 mx-auto justify-content-center">
-                <button type="button" class="btn btn-light"> <a href="compras"><i class="bi bi-cart my-auto mx-2" ></i></a></button>
+                <button type="button" class="btn btn-light"> <a href="shop"><i class="bi bi-cart my-auto mx-2" ></i></a></button>
             </div>
         </div>
     </nav>

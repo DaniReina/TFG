@@ -68,7 +68,7 @@
             </ul>
 
             <div class="d-flex my-5 mx-auto justify-content-center">
-                <button type="button" class="btn btn-light"> <a href="compras"><i class="bi bi-cart my-auto mx-2" ></i></a></button>
+                <button type="button" class="btn btn-light"> <a href="shop"><i class="bi bi-cart my-auto mx-2" ></i></a></button>
             </div>
 
         </div>
