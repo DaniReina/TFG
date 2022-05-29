@@ -1,3 +1,4 @@
+@extends('layouts.app')
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -105,5 +106,6 @@
             </form> 
         </div>
     </div>
+    @endsection
 </body>
 </html>
