@@ -122,7 +122,7 @@
                     <img src="imagenes/piedra2.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Harry Potter y la piedra filosofal</h5>
-                        <p class="card-text">La 1ª entrega de la mágica saga de fantasía Harry Potter</p>
+                        <p class="card-text">La 1ª entrega de la saga Harry Potter</p>
 
                     </div>
                 </div>
@@ -132,7 +132,7 @@
                         <img src="imagenes/palabras.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Palabras radiantes</h5>
-                            <p class="card-text">La 2ª entrega de la saga del Archivo de las Tormentas</p>
+                            <p class="card-text">La 2ª entrega del Archivo de las Tormentas</p>
 
                         </div>
                     </div>
