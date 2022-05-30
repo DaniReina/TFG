@@ -40,7 +40,7 @@
                                         <div class="card-footer" style="background-color: white;">
                                               <div class="row">
                                                 <button class="btn btn-secondary btn-sm" class="tooltip-test" title="add to cart">
-                                                    <i class="fa fa-shopping-cart"></i> agregar al carrito
+                                                    <i class="fa fa-shopping-cart"></i> Agregar al carrito
                                                 </button>
                                             </div>
                                         </div>

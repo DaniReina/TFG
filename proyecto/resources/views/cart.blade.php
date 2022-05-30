@@ -4,8 +4,8 @@
     <div class="container" style="margin-top: 80px">
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="/">Tienda</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Cart</li>
+                <li class="breadcrumb-item"><a href="/">Inicio</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Carrito</li>
             </ol>
         </nav>
         @if(session()->has('success_msg'))
@@ -38,10 +38,10 @@
             <div class="col-lg-7">
                 <br>
                 @if(\Cart::getTotalQuantity()>0)
-                    <h4>{{ \Cart::getTotalQuantity()}} Producto(s) en el carrito</h4><br>
+                    <h4>{{ \Cart::getTotalQuantity()}} Producto(s) añadidos</h4><br>
                 @else
-                    <h4>No Product(s) In Your Cart</h4><br>
-                    <a href="/" class="btn btn-dark">Continue en la tienda</a>
+                    <h4>No hay produto(s) añadidos</h4><br>
+                    <a href="/shop" class="btn btn-dark">Continue en la tienda</a>
                 @endif
 
                 @foreach($cartCollection as $item)
@@ -52,8 +52,8 @@
                         <div class="col-lg-5">
                             <p>
                                 <b><a href="/shop/{{ $item->attributes->slug }}">{{ $item->name }}</a></b><br>
-                                <b>Price: </b>${{ $item->price }}<br>
-                                <b>Sub Total: </b>${{ \Cart::get($item->id)->getPriceSum() }}<br>
+                                <b>Precio: </b>${{ $item->price }}<br>
+                                <b>Total: </b>${{ \Cart::get($item->id)->getPriceSum() }}<br>
                                 {{--                                <b>With Discount: </b>${{ \Cart::get($item->id)->getPriceSumWithConditions() }}--}}
                             </p>
                         </div>
