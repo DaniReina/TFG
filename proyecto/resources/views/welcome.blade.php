@@ -225,11 +225,11 @@
     </footer>
     <div class="row justify-content-md-center py-5">
         <div clas="col text-center font-weight-light">
-            <p> © 2020-2022 harol-production. harol-productions are trademarks of harol.SL</p>
+            <p> Copyright © 2022 Libreria. Todos los derechos reservados</p>
 
         </div>
     </div>
-    
+
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
