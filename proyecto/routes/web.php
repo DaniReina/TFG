@@ -29,9 +29,7 @@ Route::get('/about', function () {
 Route::get('/welcome', function () {
     return view('welcome');
 });
-Route::get('/compras', function () {
-    return view('compras');
-});
+
 Route::get('/welcome2', function () {
     return view('welcome2');
 });
