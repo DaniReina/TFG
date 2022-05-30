@@ -15,59 +15,59 @@ class ProductsTableSeeder extends Seeder
     public function run()
     {
         Product::create([
-            'name' => 'MacBook Pro',
-            'details' => '15 pulgadas, 1TB HDD, 32GB RAM',
-            'price' => 2499.99,
-            'description' => 'MackBook Pro',
-            'image_path' => 'macbook-pro.png'
+            'name' => 'Harry Potter y La Piedra Filosofal',
+            'details' => 'Tapa blanda, 245 págs.',
+            'price' => 34.99,
+            'description' => 'La 1ª entrega de la saga Harry Potter, donde Harry decubrirá su magia y estudiará en la academia Hogwarts, donde vivirá numerosas aventuras.',
+            'image_path' => 'piedra.jpg'
         ]);
 
         Product::create([
-            'name' => 'Dell Vostro 3557',
-            'details' => '15 pulgadas, 1TB HDD, 8GB RAM',
-            'price' => 1499.99,
-            'description' => 'Dell Vostro 3557',
-            'image_path' => 'dell-v3557.png'
+            'name' => 'Harry Potter y La Cámara de los secretos',
+            'details' => 'Tapa gruesa, 567 págs.',
+            'price' => 28.15,
+            'description' => '2ª entrega de la saga Harry Potter, donde Harry y sus amigos deberán resolver el misterio que esconde una cámara oculta en Hogwarts.',
+            'image_path' => 'camara.jpg'
         ]);
 
         Product::create([
-            'name' => 'iPhone 11 Pro',
-            'details' => '6.1 pulgadas, 64GB 4GB RAM',
-            'price' => 649.99,
-            'description' => 'iPhone 11 Pro',
-            'image_path' => 'iphone-11-pro.png'
+            'name' => 'Harry Potter y El Prisionero de Azkaban',
+            'details' => 'Tapa blanda, 100 págs.',
+            'price' => 49.99,
+            'description' => '3ª entrega de la saga Harry Potter, donde Harry y sus amigos tendrán que enfrentarse a enemigos oscuros y lidiar con el pasado de sus padres.',
+            'image_path' => 'azka.jpg'
         ]);
 
         Product::create([
-            'name' => 'Remax 610D Headset',
-            'details' => '6.1 pulgadas, 64GB 4GB RAM',
-            'price' => 8.99,
-            'description' => 'Remax 610D Headset',
-            'image_path' => 'remax-610d.jpg'
+            'name' => 'Harry Potter y El Cáliz de Fuego',
+            'details' => 'Tapa blanda, 150 págs.',
+            'price' => 81.99,
+            'description' => '4ª entrega de la saga Harry Potter, donde Harry deberá enfrentarse al Torneo de los Tres Magos.',
+            'image_path' => 'caliz.jpg'
         ]);
 
         Product::create([
-            'name' => 'Samsung LED TV',
-            'details' => '24 pulgadas, LED Display, Resolución 1366 x 768',
+            'name' => 'El Camino de los Reyes',
+            'details' => 'Tapa blanda, 276 págs.',
             'price' => 41.99,
-            'description' => 'Samsung LED TV',
-            'image_path' => 'samsung-led-24.png'
+            'description' => 'Diez ejércitos luchan por separado contra un solo enemigo. Mientras tanto, al otro lado del océano, la joven Shallan, investiga los secretos de los Caballeros Radiantes y la verdadera causa de la guerra.',
+            'image_path' => 'camino.jpg'
         ]);
 
         Product::create([
-            'name' => 'Samsung Camara Digital',
-            'details' => '16.1MP, 5x Optical Zoom',
+            'name' => 'Palabras Radiantes',
+            'details' => 'Tapa gruesa 489 págs.',
             'price' => 144.99,
-            'description' => 'Samsung Digital Camera',
-            'image_path' => 'samsung-mv800.jpg'
+            'description' => 'Kaladin está al mando de los guardaespaldas reales, un puesto controvertido por su baja condición, y debe proteger al rey y a Dalinar, y al mismo tiempo, dominar los poderes vinculados a sus honorspren.',
+            'image_path' => 'palabras.jpg'
         ]);
 
         Product::create([
-            'name' => 'Huawei GR 5 2017',
-            'details' => '5.5 pulgadas, 32GB 4GB RAM',
-            'price' => 148.99,
-            'description' => 'Huawei GR 5 2017',
-            'image_path' => 'gr5-2017.jpg'
+            'name' => 'No Cosas',
+            'details' => 'Tapa blanda, 250 págs.',
+            'price' => 18.99,
+            'description' => 'El nuevo ensayo de Byung-Chul Han gira en torno a las cosas y las no-cosas. Desarrolla tanto una filosofía del smartphone como una crítica a la inteligencia artificial desde una nueva perspectiva. Al mismo tiempo, recupera la magia de lo sólido y lo tangible y reflexiona sobre el silencio que se pierde en el ruido de la información.',
+            'image_path' => 'nocosas.jpg'
         ]);
 
     }
