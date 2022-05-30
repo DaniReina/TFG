@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark shadow-sm">
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-primary shadow-sm">
     <div class="container">
         <a class="navbar-brand" href="{{ url('/') }}">
             LIBRERIA
